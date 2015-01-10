@@ -15,6 +15,12 @@ access_token_key='YOUR_ACCESS_TOKEN'
 access_token_secret='YOUR_ACCESS_TOKEN_SECRET'
 screen_name='YOUR_TWITTER_HANDLE'
 ```
-3. Configure your port on line 14 of `connect.py` if necessary.
-4. Connect your Arduino and upload the `twitter.ino` file onto your board.
-5. Run `python connect.py` in the terminal.
+3. Install the [Python Twitter API](https://github.com/sixohsix/twitter)
+4. Configure your port on line 14 of `connect.py` if necessary.
+
+## Usage:
+
+1. Connect your Arduino and upload the `twitter.ino` file onto your board.
+2. Run `python connect.py` in the terminal.
+3. Tweet starting with the hashtag `#twt` from the account specified in `auth.py`. The LED should turn on.
+5. Tweet starting with the hashtag `#twtoff` from the account specified in `auth.py`. The LED should turn off.
