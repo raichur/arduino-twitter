@@ -21,10 +21,9 @@ def checkokay():
 
     if line == '':
         line = ser.readline()
-    print 'here'
 
 # Welcome Message
-print "It's a go!"
+print "Welcome to Arduino Twitter!"
 
 # Gets Tweets!
 def getTweets():
